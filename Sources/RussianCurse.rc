@@ -1,0 +1,207 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_HEB)\r\n"
+    "LANGUAGE 13, 1\r\n"
+    "#pragma code_page(1255)\r\n"
+    "#include ""res\\RussianCurse.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\RussianCurse.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_LOGO                BITMAP                  "res\\Logo.bmp"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Hebrew resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_HEB)
+#ifdef _WIN32
+LANGUAGE LANG_HEBREW, SUBLANG_DEFAULT
+#pragma code_page(1255)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_RUSSIANCURSE_DIALOG DIALOGEX 0, 0, 534, 130
+STYLE DS_SETFONT | DS_MODALFRAME | DS_SETFOREGROUND | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "המקלל האולטימטיבי ברוסית - By Daniel Herman Shmulyan(c), Ver 0.2"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "...תאמר בקול",IDC_CURSE,422,108,105,15,WS_DISABLED
+    EDITTEXT        IDC_EDIT_CURSE,7,95,403,28,ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | WS_VSCROLL,WS_EX_LEFTSCROLLBAR | WS_EX_STATICEDGE
+    GROUPBOX        "?מי",IDC_STATIC,359,37,82,24,BS_RIGHT
+    GROUPBOX        "?מה עושה",IDC_STATIC,271,37,82,24,BS_RIGHT
+    GROUPBOX        "?איך/איפה",IDC_STATIC,183,37,82,24,BS_RIGHT
+    GROUPBOX        "?ובנוסף מה",IDC_STATIC,95,37,82,24,BS_RIGHT
+    GROUPBOX        "?עם/על מה",IDC_STATIC,7,37,82,24,BS_RIGHT
+    GROUPBOX        "פניה נימוסית",IDC_STATIC,445,37,82,24,BS_RIGHT
+    COMBOBOX        IDC_DOWHAT_COMBO,277,46,73,16,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP,WS_EX_RIGHT
+    COMBOBOX        IDC_WHO_COMBO,364,46,73,16,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP,WS_EX_RIGHT
+    COMBOBOX        IDC_WHERE_COMBO,190,46,73,16,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP,WS_EX_RIGHT
+    COMBOBOX        IDC_andWhat_COMBO,99,46,73,16,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP,WS_EX_RIGHT
+    COMBOBOX        IDC_WITH_COMBO,11,46,73,16,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP,WS_EX_RIGHT
+    COMBOBOX        IDC_TITLE_COMBO,450,46,73,16,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP,WS_EX_RIGHT
+    PUSHBUTTON      "פנק באקראי",IDC_RAND,422,93,105,15
+    CONTROL         133,IDC_STATIC,"Static",SS_BITMAP,74,9,421,22
+    GROUPBOX        "?מילת קריאה",IDC_STATIC,95,66,120,24,BS_RIGHT
+    COMBOBOX        IDC_EXCLA_COMBO,99,75,111,16,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP,WS_EX_RIGHT
+    GROUPBOX        "צחוק זדוני",IDC_STATIC,7,66,82,24,BS_RIGHT
+    COMBOBOX        IDC_LAUGH_COMBO,11,75,73,16,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP,WS_EX_RIGHT
+    GROUPBOX        "?המלצה חמה לעתיד",IDC_STATIC,380,65,147,24,BS_RIGHT
+    COMBOBOX        IDC_FUTURE_COMBO,385,75,137,16,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP,WS_EX_RIGHT
+    GROUPBOX        "תוספת איום ידידותי",IDC_STATIC,221,66,150,24,BS_RIGHT
+    COMBOBOX        IDC_ULTI_COMBO,225,75,141,16,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP,WS_EX_RIGHT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,2,0,0
+ PRODUCTVERSION 0,2,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "Daniel"
+            VALUE "FileDescription", "Russian Curser"
+            VALUE "FileVersion", "0.2"
+            VALUE "InternalName", "RussianCurse.exe"
+            VALUE "LegalCopyright", "Daniel Herman Shmulyan  All rights reserved."
+            VALUE "OriginalFilename", "RussianCurse.exe"
+            VALUE "ProductName", "Russian ultimate curser"
+            VALUE "ProductVersion", "0.2"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_RUSSIANCURSE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 527
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 123
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Hebrew resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_HEB)
+LANGUAGE 13, 1
+#pragma code_page(1255)
+#include "res\RussianCurse.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
